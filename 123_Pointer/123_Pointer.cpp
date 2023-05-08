@@ -8,3 +8,9 @@ public:
 		cout << "No Induk = " << nim << endl;
 	}
 };
+
+int main() {
+	mahasiswa mhs{ 1 };  // object mahasiswa
+	mhs.showNim(); // member access operator 
+
+}
